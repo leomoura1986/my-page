@@ -1,0 +1,35 @@
+@charset "UTF8";
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap');
+/* Oque em HTML é ID no CSS é # (só pode ter uma)
+   Oque em HTML é class no CSS é . (pode ter várias)
+*/
+body{
+    background-image:linear-gradient(to top, #5142d7,#bc0a99);
+}
+p{
+ font-family:'Jacques Francois Shadow', cursive;
+}
+h1{
+    color: rgb(246, 245, 244);
+}
+h1#principal{
+    text-align: center;
+}
+h2{
+    color: rgb(241, 216, 154);
+}
+.bas{
+    color: chocolate;
+    font-weight: bold;
+}
+.int{
+    color: chartreuse;
+    font-weight: bold;
+}
+.ava{
+    color: rgb(136, 6, 32);
+    font-weight: bold;
+}
+.destaque{
+    background-color: black;
+}
